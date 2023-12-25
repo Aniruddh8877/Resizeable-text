@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+    .resizable {
+        transition: font-size .1s ease;
+    }
+    #sizeControls {
+        margin-top: 10px;
+        position: fixed;
+        padding-top: 80px;
+    }
+    /*input[type="range"]*/
+    #fontControl {
+        width: 200px;
+    }
